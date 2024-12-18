@@ -224,7 +224,7 @@ def get_director_info(director_name: str):
 
     # Generar el texto descriptivo
     resultado_texto = (
-        f"El director {director_name} ha obtenido una ganancia total de {total_revenue:,.2f}, "
+        f"El director {director_name} ha obtenido una ganancia total de ${total_revenue:,.2f}, "
         f"con un retorno total promedio de {average_return:.2f}% en un total de {total_movies} películas, "
         f"y con un retorno de {average_return_non_zero:.2f}% sin contar las "
         f"películas que no tienen retorno en este dataset.({total_zero_return})"
